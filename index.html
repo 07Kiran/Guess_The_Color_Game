@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="bgcc.jpeg">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Open+Sans:300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="backdrop">
+        <h2>Let's Play- Kaun Banega Color</h2>
+        <p>Guess the color:</p>
+        <h1><span id="colorDisplay">RGB</span></h1>
+
+
+        <button id="reset">NEW COLORS</button>
+        <button class="mode" id="easyBtn">EASY</button>
+        <button class="mode selected" id="hardBtn">HARD</button>
+
+        <!-- feedback to user -->
+        <div id="message"></div>
+
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

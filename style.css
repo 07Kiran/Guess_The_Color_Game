@@ -1,0 +1,132 @@
+body {
+    font-family: "Montserrat", sans-serif;
+   background-image: url("bgcc.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#backdrop {
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 700px;
+   margin: 0 auto;
+   height: 680px;
+   border-radius: 10px;
+}
+
+button {
+   background: rgba(90, 101, 107, 0.5);
+   color: #ffffff;
+   font-size: 15px;
+   padding: 6px;
+   text-decoration: none;
+   border: 0;
+   transition: all .2s ease-in-out;
+   border-radius: 4px;
+   margin: 3px;
+
+
+
+}
+
+
+button:hover {
+   background: rgba(148, 142, 236, 0.6);
+   transform: scale(1.1);
+ cursor: pointer;
+
+}
+
+/* removes Chrome "selected" blue outline */
+button:focus {
+   outline: 0;
+}
+
+#easyBtn,
+#hardBtn {
+   float: right;
+}
+
+#easyBtn {
+   margin-right: 20%;
+}
+
+#reset {
+   margin-left: 20%;
+}
+
+.selected {
+   background:  rgba(35,35,35,0.5);
+}
+
+#colorDisplay {
+   background: #373E42;
+   padding: 10px;
+   border-radius: 5px;
+   text-transform: uppercase;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+   font-size: 2em;
+   padding: 20px;
+   margin-block-start: 0.2em;
+   margin-block-end: 0.5em;
+   text-transform: uppercase;
+}
+
+h2 {
+   color: rgb(148, 142, 236);
+   background: -webkit-linear-gradient(right, #63d9f3, #daa1f7, #f07f87);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 2.2em;
+   margin-block-start: 0.5em;
+   margin-block-end: 0.2em;
+   padding-top: 20px;
+}
+
+#message {
+   color: white;
+   font-size: 16px;
+   height: 18px;
+   display: block;
+   text-align: center;
+   margin-top: 9px;
+
+}
+
+p {
+   color: rgb(148, 142, 236);
+   background: -webkit-linear-gradient(right, #63d9f3, #daa1f7, #f07f87);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+   font-size: 1.2em;
+   padding: 0px;
+   margin-block-start: 0.2em;
+   margin-block-end: 0em;
+   font-weight: bold;
+}
+
+
+.square {
+   width: 30%;
+   padding-bottom: 30%;
+   float: left;
+   margin: 1.66%;
+   border-radius: 15px;
+   transition: background-color 0.5s;
+   -webkit-transition: background-color 0.5s;
+   -moz-transition: background-color 0.5s;
+}
+
+#container {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+
